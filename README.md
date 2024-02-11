@@ -23,8 +23,7 @@
    
    // Вычисление площади круга
    IShape circle = new CircleShape(5);
-   double circleArea = circle.CalculateArea();
-   Console.WriteLine($"Площадь круга : {circleArea}");
+   Console.WriteLine($"Площадь круга : {circle.CalculateArea()}");
 
    // Вычисление площади треугольника
    IShape triangle = new TriangleShape(3, 4, 5);
