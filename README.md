@@ -22,12 +22,12 @@
    using ShapeCalculation.Shapes;
    
    // Вычисление площади круга
-   var circle = new CircleShape(5);
-   var circleArea = circle.CalculateArea();
+   IShape circle = new CircleShape(5);
+   double circleArea = circle.CalculateArea();
    Console.WriteLine($"Площадь круга : {circleArea}");
 
    // Вычисление площади треугольника
-   var triangle = new TriangleShape(3, 4, 5);
+   IShape triangle = new TriangleShape(3, 4, 5);
    Console.WriteLine($"Площадь треугольника : {triangle.CalculateArea()}");
    ```
 
